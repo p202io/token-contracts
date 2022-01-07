@@ -1,2 +1,1 @@
-# contracts
-Project 202 Smart Contracts
+# Project 202 Smart Contracts

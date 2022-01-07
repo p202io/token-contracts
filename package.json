@@ -1,0 +1,44 @@
+{
+  "name": "@p202io/contracts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Project 202 Smart Contracts",
+  "author": {
+    "name": "Project 202",
+    "email": "support@p202.io",
+    "url": "https://p202.io/"
+  },
+  "scripts": {
+    "clean": "rimraf ./build/ && mkdirp ./build/",
+    "precompile": "yarn clean",
+    "compile": "truffle compile"
+  },
+  "homepage": "https://github.com/p202io/contracts/#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p202io/contracts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/p202io/contracts/issues",
+    "email": "support@p202.io"
+  },
+  "files": [
+    "contracts",
+    "build"
+  ],
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.0"
+  },
+  "devDependencies": {
+    "mkdirp": "^1.0.4",
+    "rimraf": "^3.0.2",
+    "truffle": "^5.4.17"
+  },
+  "contributors": [
+    {
+      "name": "Aleksandr Ivannikov",
+      "email": "dev@an-ivannikov.com",
+      "url": "https://an-ivannikov.com/"
+    }
+  ]
+}
