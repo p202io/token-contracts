@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 /// @custom:security-contact support@p202.io
 contract P202Presale is Ownable {
-    uint256 public price = 0.00010570 ether;
+    uint256 public price = 0.00011 ether;
     address public immutable token;
 
     constructor(address token_) {
